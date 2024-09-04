@@ -1,0 +1,106 @@
+.page {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  padding: 8px 0 279px;
+}
+
+@media (max-width: 991px) {
+  .page {
+    padding-bottom: 100px;
+  }
+}
+
+.pageHeading {
+  background-color: #fff;
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  color: #000;
+  letter-spacing: -1.28px;
+  padding: 40px 70px 0;
+  font: 200 30px/1.2 Newsreader, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .pageHeading {
+    max-width: 100%;
+    font-size: 35px;
+    padding: 0 20px;
+  }
+}
+
+.headingText {
+  align-self: start;
+}
+
+@media (max-width: 991px) {
+  .headingText {
+    font-size: 40px;
+  }
+}
+
+.divider {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  align-self: center;
+  margin-top: 16px;
+  width: 1248px;
+  max-width: 100%;
+  height: 0px;
+  border: 2px solid #e6e6e6;
+}
+
+.productGrid {
+  width: 100%;
+  max-width: 1286px;
+  margin: 40px 0 0 19px;
+}
+
+@media (max-width: 991px) {
+  .productGrid {
+    max-width: 100%;
+  }
+}
+
+.productRow {
+  gap: 20px;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .productRow {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+}
+
+.productColumn {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 33%;
+  margin-left: 0px;
+}
+
+@media (max-width: 991px) {
+  .productColumn {
+    width: 100%;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
